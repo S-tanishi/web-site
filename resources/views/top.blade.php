@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 </head>
 <body>
 
@@ -10,7 +11,7 @@
   <h1>トップページだよ</h1>  
 </main>
 
-@include('parts.footer')
+@include("parts.footer")
 
 </body>
 </html>
