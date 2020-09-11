@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
-</head>
+@include("parts.common,["title" => "概要" ])
 
-<body>
 @include("parts.header")
 <main>
     <h1>概要ページ</h1>
