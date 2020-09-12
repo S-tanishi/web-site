@@ -6,5 +6,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('top');
 //});
 
+// Route::get('/', 'TopController@show')->name('top');
+
 Route::get('/', 'TopPageController@show');
-Route::get('/about', 'AboutPageController@show');
+// Route::get('/about', 'AboutPageController@show');
